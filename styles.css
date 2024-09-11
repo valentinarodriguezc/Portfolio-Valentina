@@ -1,0 +1,68 @@
+body {
+  background-color: #ad73c9;
+}
+
+h2 {
+  color: #3f5164;
+}
+
+.carousel-caption h5 {
+    color: #580a82; /* Color blanco para el h5 */
+    font-size: 36px;
+    font-weight: bold; /* Texto en negritas */
+}
+
+.carousel-caption p {
+    color: #242423; /* Color dorado para el p */
+    font-size: 20px;
+    font-weight: bold; /* Texto en negritas */
+}
+.navbar {
+    background: linear-gradient(90deg, 
+      #401d65, 
+      #4b0082, /* Índigo */
+      #8212b6, 
+      #8b00ff  /* Violeta */
+    );
+    padding: 15px; /* Ajusta el espacio interno */
+    color: white; 
+  }
+
+.navbar-brand, .nav-link {
+  color: rgb(207, 200, 216) !important;
+}
+
+.dropdown-toggle {
+  background-color: #9c27b0;
+  color: white !important;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.9s ease;
+}
+
+.dropdown-toggle:hover {
+  background-color: #af17bd;
+}
+
+.carousel-item {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#proyectos, #sobre-mi, #contacto {
+  padding: 60px 0;
+}
+
+.dropdown-menu {
+  background-color: #8c2dc0;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: #0056b3;
+}
